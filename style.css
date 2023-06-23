@@ -1,0 +1,115 @@
+.div1 {
+    height: 500px;
+    width: 550px;
+    margin: 100px auto auto;
+    text-align: center;
+    border: 1px solid rgba(8, 8, 8, 0.3);
+    box-shadow: 14px 15px 14px -7px;
+}
+
+.div1 h1 {
+    text-shadow: 18px 3px 5px;
+    font-size: 44px;
+}
+
+.div1 p {
+    margin-top: -1px;
+    font-size: 24px;
+}
+
+.social {
+    height: 89px;
+    width: 92px;
+    background-color: black;
+    background-image: url("image/social_sprite_image.jpg");
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-position: -418px -337px;
+    border-radius: 88px;
+    transition: all 0.2s ease 0s;
+    float: left;
+}
+
+.social:hover {
+    height: 89px;
+    width: 92px;
+    background-image: url("image/social_sprite_image.jpg");
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-position: -571px -337px;
+    border-radius: 88px;
+}
+
+.socia2 {
+    height: 89px;
+    width: 92px;
+    background-color: black;
+    background-image: url("image/social_sprite_image.jpg");
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-position: -112px -337px;
+    border-radius: 88px;
+    transition: all 0.2s ease 0s;
+    margin-left: 98px;
+    float: left;
+}
+
+.socia2:hover {
+    height: 89px;
+    width: 92px;
+    background-image: url("image/social_sprite_image.jpg");
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-position: -724px -337px;
+    border-radius: 88px;
+}
+
+.trns {
+    margin-top: 7px;
+    display: inline-block;
+    margin-left: 71px;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    transform: skew(-45deg, 178deg);
+    
+}
+
+.trnsfor {
+    height: 150px;
+    width: 250px;
+    display: inline-block;
+    margin-left: 71px;
+    background-color: tomato;
+    color: white;
+    transition-property: all;
+    transition-delay: 0.2s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10%;
+    
+    
+}
+
+.trnsfor:hover {
+    height: 200px;
+    width: 250px;
+    margin-left: 71px;
+    background-color: purple;
+    color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    transform:rotate(360deg);
+    
+}
+.trnsfor h1{
+    position: relative;
+    margin-top: 73px;
+}
+
+
+
